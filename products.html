@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - SpiceLink | 100% Pure Ground &amp; Whole Spices</title>
+
+    <!-- Vendor Stylesheets -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="assets/fonts/flaticon-2/flaticon.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <style>
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: #82b440;
+            color: #fff;
+            padding: 4px 10px;
+            font-size: 11px;
+            font-weight: 600;
+            border-radius: 3px;
+            z-index: 2;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .product-badge.blend {
+            background: #e65a28;
+        }
+        .product-badge.whole {
+            background: #5d4037;
+        }
+        .ct-product {
+            position: relative;
+            margin-bottom: 30px;
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .ct-product:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transform: translateY(-4px);
+        }
+        .ct-product-thumbnail img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+        .ct-product-body {
+            padding: 20px;
+        }
+        .product-specs {
+            font-size: 12px;
+            color: #777;
+            margin-bottom: 12px;
+        }
+        .product-specs span {
+            display: inline-block;
+            margin-right: 12px;
+        }
+        .category-filter-btn {
+            display: inline-block;
+            padding: 8px 18px;
+            margin: 4px;
+            border-radius: 20px;
+            background: #f7f7f7;
+            color: #444;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid #e2e2e2;
+            transition: all 0.2s ease;
+        }
+        .category-filter-btn:hover, .category-filter-btn.active {
+            background: #82b440;
+            color: #fff;
+            border-color: #82b440;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader start -->
+    <div class="ct-preloader">
+        <img src="assets/img/preloader.svg" alt="preloader">
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Aside (Mobile Navigation) -->
+    <aside class="sigma_aside sigma_aside-left">
+        <a class="navbar-brand" href="home-v2.html">
+            <img src="assets/img/logo.png" alt="SpiceLink Logo">
+        </a>
+        <div class="aside-scroll">
+            <ul>
+                <li class="menu-item">
+                    <a href="home-v2.html">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="products.html">Our Products</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <div class="sigma_aside-overlay aside-trigger-left"></div>
+
+    <!-- Header Start -->
+    <header class="main-header header-1 can-sticky">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <!-- Mobile Logo -->
+                <a class="navbar-brand d-lg-none" href="home-v2.html">
+                    <img src="assets/img/logo.png" alt="SpiceLink Logo">
+                </a>
+
+                <div class="header-control-left">
+                    <!-- Left spacer -->
+                </div>
+
+                <!-- Desktop Navigation Menu -->
+                <ul class="navbar-nav">
+                    <li class="menu-item">
+                        <a href="home-v2.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li class="logo-wrapper">
+                        <!-- Centered Brand Logo -->
+                        <a class="navbar-brand" href="home-v2.html">
+                            <img src="assets/img/logo.png" alt="SpiceLink - Trading FZE">
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="products.html">Our Products</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Mobile Menu Toggler -->
+                <div class="header-controls">
+                    <div class="aside-toggler style-2 aside-trigger-left">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Subheader Start -->
+    <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.jpg')">
+        <div class="absolute-subheader">
+            <div class="container">
+                <div class="subheader-inner">
+                    <h1>Our Products</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="home-v2.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Our Products</li>
+                        </ol>
+                    </nav>
+                    <img src="assets/img/veg/8.png" class="image-1" alt="Spice Leaf">
+                    <img src="assets/img/veg/5.png" class="image-2" alt="Spice Branch">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subheader End -->
+
+    <!-- Main Products Section -->
+    <section class="section section-padding extra-padding posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Category Tabs & View Toggler -->
+                    <div class="filter-wrapper d-flex flex-wrap justify-content-between align-items-center mb-4 pb-3 border-bottom">
+                        <div class="category-filters">
+                            <button class="category-filter-btn active" onclick="filterCategory('all')">All Spices</button>
+                            <button class="category-filter-btn" onclick="filterCategory('ground')">Ground Powders</button>
+                            <button class="category-filter-btn" onclick="filterCategory('blends')">Masala Blends</button>
+                            <button class="category-filter-btn" onclick="filterCategory('whole')">Whole Spices</button>
+                        </div>
+                        <div class="view-toggler mt-2 mt-sm-0">
+                            <i class="fas fa-th toggle-grid active" title="Grid View"></i>
+                            <i class="fas fa-th-list toggle-list" title="List View"></i>
+                        </div>
+                    </div>
+
+                    <div class="row" id="productGrid">
+
+                        <!-- 1. Turmeric Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="ground" id="turmeric">
+                            <div class="ct-product">
+                                <span class="product-badge">100% Pure Ground</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=turmeric"><img src="assets/img/about-2.jpg" alt="Pure Turmeric Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=turmeric" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=turmeric">Turmeric Powder (Haldi)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-certificate text-success"></i> High Curcumin (3.5%+)</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Cold-milled from premium Salem &amp; Alleppey finger roots. Renowned for its radiant golden-yellow hue, deep earthy aroma, and powerful anti-inflammatory benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. Red Chilli Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="ground" id="red-chilli">
+                            <div class="ct-product">
+                                <span class="product-badge">Stemless Sun-Dried</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=red-chilli"><img src="assets/img/categories/cuisine.jpg" alt="Red Chilli Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=red-chilli" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=red-chilli">Red Chilli Powder (Lal Mirch)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-fire text-danger"></i> Balanced Heat &amp; Color</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Prepared from hand-selected stemless Guntur &amp; Byadgi chillies. Delivers a brilliant natural ruby-red color and rich savory heat without artificial pigments.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. Coriander Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="ground" id="coriander">
+                            <div class="ct-product">
+                                <span class="product-badge">Slow Roasted</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=coriander"><img src="assets/img/categories/vegan.jpg" alt="Coriander Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=coriander" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=coriander">Coriander Powder (Dhania)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-seedling text-success"></i> Rich Citrus Notes</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Made from gently roasted plump green coriander seeds. Provides sweet, citrusy fragrance and acts as an aromatic thickening foundation for curries and gravies.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. Cumin Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="ground" id="cumin">
+                            <div class="ct-product">
+                                <span class="product-badge">Aroma Roasted</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=cumin"><img src="assets/img/categories/breakfast.jpg" alt="Cumin Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=cumin" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=cumin">Cumin Powder (Jeera)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-leaf text-success"></i> Warm Earthy Aroma</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Slow dry-roasted to release volatile cuminaldehyde, then finely milled. Imparts deep woody warmth, digestive comfort, and unmistakable nutty fragrance.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5. Black Pepper Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="ground" id="black-pepper">
+                            <div class="ct-product">
+                                <span class="product-badge">Malabar Bold</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=black-pepper"><img src="assets/img/blog/11.jpg" alt="Black Pepper Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=black-pepper" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=black-pepper">Black Pepper Powder (Kali Mirch)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-award text-warning"></i> High Piperine Heat</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Crushed from sun-dried Tellicherry bold peppercorns grown in the misty hills of Kerala. Delivers crisp, biting heat and sharp floral-pine notes.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 6. Royal Garam Masala (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="blends" id="garam-masala">
+                            <div class="ct-product">
+                                <span class="product-badge blend">12 Spices Blend</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=garam-masala"><img src="assets/img/categories/dairy.jpg" alt="Royal Garam Masala"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=garam-masala" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=garam-masala">Royal Garam Masala</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-crown text-warning"></i> Signature Heritage Blend</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Artisanal blend of Ceylon cinnamon, green cardamom, cloves, mace, nutmeg, black cardamom, star anise, and toasted cumin. Adds warmth and royal finish to curries.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 7. Sambar Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="blends" id="sambar-powder">
+                            <div class="ct-product">
+                                <span class="product-badge blend">South Indian Heritage</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=sambar"><img src="assets/img/banner/2.jpg" alt="South Indian Sambar Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=sambar" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=sambar">South Indian Sambar Powder</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-mortar-pestle text-primary"></i> Roasted Dal &amp; Spices</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Authentic recipe made with slow-roasted chana dal, urad dal, coriander, cumin, fenugreek, red chillies, and aromatic curry leaves. Creates soul-satisfying lentil sambar.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 8. Rasam Powder (Core) -->
+                        <div class="col-md-6 product-card-item" data-cat="blends" id="rasam-powder">
+                            <div class="ct-product">
+                                <span class="product-badge blend">Tangy &amp; Peppery</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=rasam"><img src="assets/img/blog/1.jpg" alt="Traditional Rasam Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=rasam" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=rasam">Traditional Rasam Powder</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-pepper-hot text-danger"></i> Black Pepper &amp; Cumin</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Spicy, tangy blend bursting with Tellicherry black pepper, cumin, coriander seeds, red chillies, and asafoetida. Perfect for comforting South Indian rasam broth.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 9. Green Cardamom (Whole) -->
+                        <div class="col-md-6 product-card-item" data-cat="whole" id="cardamom">
+                            <div class="ct-product">
+                                <span class="product-badge whole">8mm Bold Pods</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=cardamom"><img src="assets/img/banner/3.jpg" alt="Whole Green Cardamom"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=cardamom" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=cardamom">Green Cardamom (Chhoti Elaichi)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-star text-warning"></i> Grade-A Handpicked</span>
+                                        <span><i class="fas fa-box"></i> 50g - 10kg</span>
+                                    </div>
+                                    <p class="product-text">Hand-harvested in the high-elevation slopes of the Cardamom Hills. Plump 8mm green pods packed with intensely sweet, menthol-camphor essential oils.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 10. Ceylon Cinnamon (Whole) -->
+                        <div class="col-md-6 product-card-item" data-cat="whole" id="cinnamon">
+                            <div class="ct-product">
+                                <span class="product-badge whole">True Ceylon</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=cinnamon"><img src="assets/img/products/3.png" alt="Ceylon Cinnamon Sticks"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=cinnamon" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=cinnamon">Ceylon Cinnamon Sticks (Dalchini)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-heart text-danger"></i> Low Coumarin Safe</span>
+                                        <span><i class="fas fa-box"></i> 100g - 15kg</span>
+                                    </div>
+                                    <p class="product-text">Thin, delicate multi-layered quills of pure Ceylon cinnamon. Fragrant, sweet, and gently spiced without the harsh bitterness of common cassia bark.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 11. Whole Aromatic Cloves -->
+                        <div class="col-md-6 product-card-item" data-cat="whole" id="cloves">
+                            <div class="ct-product">
+                                <span class="product-badge whole">Hand-Selected</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=cloves"><img src="assets/img/products/1.png" alt="Whole Aromatic Cloves"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=cloves" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=cloves">Whole Cloves (Laung)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-gem text-info"></i> Head-On Rich Eugenol</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Full-bodied flower buds with unbroken heads. Rich in natural eugenol oils, imparting a deep warm, numbing sweetness to savory pilafs, curries, and teas.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 12. Mustard & Fennel Seeds -->
+                        <div class="col-md-6 product-card-item" data-cat="whole" id="mustard-fennel">
+                            <div class="ct-product">
+                                <span class="product-badge whole">Tempering Essentials</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=fennel"><img src="assets/img/banner/6.jpg" alt="Mustard and Fennel Seeds"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=mustard-fennel" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=fennel">Black Mustard &amp; Fennel Seeds</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-seedling text-success"></i> Tadka &amp; Digestive</span>
+                                        <span><i class="fas fa-box"></i> 250g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Pungent black mustard seeds (rai) for crackling tadkas, paired with sweet aromatic Lucknowi fennel seeds (saunf) for pickling and digestive tea blends.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 13. Shahi Biryani Masala -->
+                        <div class="col-md-6 product-card-item" data-cat="blends" id="biryani-masala">
+                            <div class="ct-product">
+                                <span class="product-badge blend">Royal Feast Blend</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=biryani"><img src="assets/img/categories/turmeric.jpg" alt="Shahi Biryani Masala"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=biryani" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=biryani">Shahi Biryani Masala</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-crown text-warning"></i> Dum Biryani Magic</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Regal concoction of star anise, stone flower (dagad phool), mace, cardamom, cloves, and shahi jeera. Creates hypnotic fragrance in meat and vegetable biryanis.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 14. All-Purpose Curry Powder -->
+                        <div class="col-md-6 product-card-item" data-cat="blends" id="curry-powder">
+                            <div class="ct-product">
+                                <span class="product-badge blend">Global Favorite</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=curry"><img src="assets/img/blog/7.jpg" alt="All Purpose Curry Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=curry" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=curry">Golden All-Purpose Curry Powder</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-globe text-primary"></i> Versatile Foundation</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">A harmonious golden blend of turmeric, coriander, cumin, fenugreek, ginger, black pepper, and bay leaves. Perfect for hearty stews, roasts, and stir-fries.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 15. Kashmiri Mild Chilli Powder -->
+                        <div class="col-md-6 product-card-item" data-cat="ground" id="kashmiri-chilli">
+                            <div class="ct-product">
+                                <span class="product-badge">Vibrant Natural Red</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=kashmiri"><img src="assets/img/products/7.png" alt="Kashmiri Mild Chilli Powder"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=kashmiri" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=kashmiri">Kashmiri Mild Chilli Powder</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-palette text-danger"></i> Ultra-Rich Color</span>
+                                        <span><i class="fas fa-box"></i> 100g - 25kg</span>
+                                    </div>
+                                    <p class="product-text">Beloved for its dazzling, natural crimson color with very mild, delicate heat. Ideal for marinades, tandoori preparations, gravies, and restaurant-style presentation.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 16. Star Anise & Whole Nutmeg -->
+                        <div class="col-md-6 product-card-item" data-cat="whole" id="star-anise">
+                            <div class="ct-product">
+                                <span class="product-badge whole">Exotic Aromatics</span>
+                                <div class="ct-product-thumbnail">
+                                    <a href="product-details.html?spice=star-anise"><img src="assets/img/blog/8.jpg" alt="Star Anise and Nutmeg"></a>
+                                    <div class="ct-product-controls">
+                                        <a href="contact-us.html?inquiry=star-anise" class="btn-custom secondary">Inquire / Quote <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="ct-product-body">
+                                    <h5 class="product-title"><a href="product-details.html?spice=star-anise">Star Anise &amp; Whole Nutmeg (Jaiphal)</a></h5>
+                                    <div class="product-specs">
+                                        <span><i class="fas fa-feather-alt text-info"></i> Sweet Licorice &amp; Wood</span>
+                                        <span><i class="fas fa-box"></i> 100g - 15kg</span>
+                                    </div>
+                                    <p class="product-text">Unbroken 8-pointed star anise pods accompanied by whole sound nutmegs in shell. Essential for Asian broths, baking, mulled beverages, and royal gravies.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <!-- Category Widget -->
+                        <div class="sidebar-widget">
+                            <h5>Product Categories</h5>
+                            <ul class="list-unstyled">
+                                <li class="py-2 border-bottom d-flex justify-content-between">
+                                    <a href="javascript:void(0)" onclick="filterCategory('ground')">Pure Ground Spices</a>
+                                    <span class="badge badge-light">6</span>
+                                </li>
+                                <li class="py-2 border-bottom d-flex justify-content-between">
+                                    <a href="javascript:void(0)" onclick="filterCategory('blends')">Heritage Masala Blends</a>
+                                    <span class="badge badge-light">5</span>
+                                </li>
+                                <li class="py-2 border-bottom d-flex justify-content-between">
+                                    <a href="javascript:void(0)" onclick="filterCategory('whole')">Whole Spices &amp; Seeds</a>
+                                    <span class="badge badge-light">5</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Packaging Options -->
+                        <div class="sidebar-widget">
+                            <h5>Packaging Options</h5>
+                            <p class="small text-muted">All SpiceLink products are available in multiple packaging formats tailored for retail, foodservice, and export:</p>
+                            <ul class="list-unstyled small">
+                                <li><i class="fas fa-check-circle custom-primary mr-2"></i> <b>Retail Zip Pouches:</b> 100g, 250g, 500g</li>
+                                <li><i class="fas fa-check-circle custom-primary mr-2"></i> <b>Glass / PET Jars:</b> 100g &amp; 200g</li>
+                                <li><i class="fas fa-check-circle custom-primary mr-2"></i> <b>Restaurant Foodservice:</b> 1kg &amp; 5kg bags</li>
+                                <li><i class="fas fa-check-circle custom-primary mr-2"></i> <b>Bulk Export Commercial:</b> 25kg multi-wall paper/PP bags</li>
+                            </ul>
+                        </div>
+
+                        <!-- Quality Certifications -->
+                        <div class="sidebar-widget bg-light p-4 rounded">
+                            <h5>Purity Guarantee</h5>
+                            <p class="small text-muted">Spice Link - Trading FZE adheres to rigorous quality control frameworks:</p>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-shield-alt text-success mr-3" style="font-size: 24px;"></i>
+                                <span class="small font-weight-bold">100% Free of Artificial Dyes &amp; Fillers</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-snowflake text-info mr-3" style="font-size: 24px;"></i>
+                                <span class="small font-weight-bold">Cryogenic Cold-Ground to Retain Aroma</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-microscope text-warning mr-3" style="font-size: 24px;"></i>
+                                <span class="small font-weight-bold">Lab Tested for Moisture &amp; Microbiological Safety</span>
+                            </div>
+                        </div>
+
+                        <!-- Wholesale Inquiry CTA -->
+                        <div class="sidebar-widget text-center p-4 border rounded">
+                            <h5 class="mb-2">Need a Custom Quote?</h5>
+                            <p class="small text-muted mb-3">Get in touch with our export and wholesale desk for bulk pricing, test certificates, and samples.</p>
+                            <a href="contact-us.html" class="btn-custom primary btn-block">Request Bulk Pricing <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="ct-footer footer-3 footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 footer-widget">
+                            <h5 class="widget-title">Core Spices</h5>
+                            <ul>
+                                <li><a href="products.html#turmeric">Turmeric Powder</a></li>
+                                <li><a href="products.html#red-chilli">Red Chilli Powder</a></li>
+                                <li><a href="products.html#coriander">Coriander Powder</a></li>
+                                <li><a href="products.html#cumin">Cumin Powder</a></li>
+                                <li><a href="products.html#black-pepper">Black Pepper Powder</a></li>
+                                <li><a href="products.html#garam-masala">Garam Masala</a></li>
+                                <li><a href="products.html#sambar-powder">Sambar Powder</a></li>
+                                <li><a href="products.html#rasam-powder">Rasam Powder</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6 footer-widget">
+                            <h5 class="widget-title">More Spices</h5>
+                            <ul>
+                                <li><a href="products.html#cardamom">Green Cardamom</a></li>
+                                <li><a href="products.html#cinnamon">Ceylon Cinnamon</a></li>
+                                <li><a href="products.html#cloves">Aromatic Cloves</a></li>
+                                <li><a href="products.html#mustard-fennel">Mustard &amp; Fennel</a></li>
+                                <li><a href="products.html#biryani-masala">Biryani Masala</a></li>
+                                <li><a href="products.html#curry-powder">Curry Powder</a></li>
+                                <li><a href="products.html#star-anise">Star Anise</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6 footer-widget">
+                            <h5 class="widget-title">Quick Links</h5>
+                            <ul>
+                                <li><a href="home-v2.html">Home</a></li>
+                                <li><a href="about-us.html">About SpiceLink</a></li>
+                                <li><a href="products.html">Our Products</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="about-us.html#quality">Purity Standards</a></li>
+                                <li><a href="contact-us.html#quote">Wholesale Inquiry</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 footer-widget contact-widget">
+                    <h5 class="widget-title">Subscribe to SpiceLink</h5>
+                    <p class="mb-0">Subscribe to receive harvest updates, wholesale catalogs, seasonal spice tips, and special offers.</p>
+                    <form action="contact-us.html" method="post">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email Address" class="form-control" name="email" required>
+                            <button type="submit" class="btn-custom primary shadow-none" name="button">Subscribe</button>
+                        </div>
+                    </form>
+                    <ul>
+                        <li>
+                            <i class="flaticon-email"></i>
+                            sales@spicelinktrading.com
+                        </li>
+                        <li>
+                            <i class="flaticon-call"></i>
+                            +91 98765 43210
+                        </li>
+                        <li>
+                            <i class="flaticon-location"></i>
+                            Spice Link - Trading FZE, Global Spice Distribution Hub
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                        <p class="m-0">&copy; Copyright 2026 - <a href="home-v2.html">Spice Link - Trading FZE</a>. Harvesting Flavor. Delivering Quality. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 footer-widget pb-0 text-center text-lg-right">
+                        <div class="payment-image">
+                            <img src="assets/img/footer-bottom-img.png" alt="Payment &amp; Security">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Vendor Scripts -->
+    <script src="assets/js/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/plugins/popper.min.js"></script>
+    <script src="assets/js/plugins/waypoint.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.slimScroll.min.js"></script>
+    <script src="assets/js/plugins/imagesloaded.min.js"></script>
+    <script src="assets/js/plugins/jquery.steps.min.js"></script>
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <!-- Style Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        function filterCategory(cat) {
+            $(".category-filter-btn").removeClass("active");
+            event.target.classList.add("active");
+            if (cat === "all") {
+                $(".product-card-item").show(200);
+            } else {
+                $(".product-card-item").hide(100);
+                $(".product-card-item[data-cat='" + cat + "']").show(200);
+            }
+        }
+    </script>
+</body>
+</html>
